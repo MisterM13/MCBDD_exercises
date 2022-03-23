@@ -9,6 +9,9 @@
 #	It is to show and clarify sensitifity and specifity with
 #	an simulated absolute Population.
 #
+#	Try out and enjoy! Made by Matthias Müller 
+#	https://github.com/MisterM13
+#
 #-------------------------------------------------------------
 
 sensitivity = float(input("input sensitivity:"))#0.99
