@@ -11,9 +11,9 @@
 #
 #-------------------------------------------------------------
 
-sensitivity = input("input sensitivity:")#0.99
-specificity = input("input specificity:")#0.99
-prevalence = input("input prevalence:")#0.01
+sensitivity = float(input("input sensitivity:"))#0.99
+specificity = float(input("input specificity:"))#0.99
+prevalence = float(input("input prevalence:"))#0.01
 notInfected = 1-prevalence
 groundpopulation = 100000
 absInf = groundpopulation*prevalence
